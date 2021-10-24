@@ -1,0 +1,43 @@
+#include<iostream>
+using namespace std;
+int main() {
+
+  int rupiah, poundsterling, WON, dollar, Euro, pilihan;
+  
+  cout<<"***TUGAS PEMROGRAMAN TLS***" ;
+  
+  cout<<"\n==Konversi Mata Uang ==" ;
+  cout<<"\n1. Rupiah (IDR) – Dollar " ;
+  cout<<"\n2. Rupiah (IDR) – Poundsterling" ;
+  cout<<"\n3. Rupiah (IDR) – Euro " ;
+  cout<<"\n4. Rupiah (IDR) – WON (KRW) " ;
+  cout<<"\n Masukan nomor pilihan mata uang " ;
+  cin>>pilihan;
+  
+  if (pilihan==1) {
+    cout<<"Masukan nilai rupiah = " ;
+    cin>>rupiah;
+    dollar = rupiah/1230;
+    cout<<"Nilai dollar = "<<dollar;
+    }
+  else if (pilihan==2) {
+    cout<<"Masukan nilai rupiah = " ;
+    cin>>rupiah;
+    dollar = rupiah/19581;
+    cout<<"Nilai Pounsterling = "<<poundsterling;
+    }
+  else if (pilihan==3) {
+    cout<<"Masukan nilai rupiah = " ;
+    cin>>rupiah;
+    dollar = rupiah/16850;
+    cout<<"Nilai Euro = "<<Euro;
+    }
+    else if (pilihan==4) {
+    cout<<"Masukan nilai rupiah = " ;
+    cin>>rupiah;
+    dollar = rupiah/12.09;
+    cout<<"Nilai WON = "<<WON;
+    }
+    return 0;
+ }
+    
